@@ -13,7 +13,7 @@ margin:0px;
 
 }
 
-ul{
+ul.nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -21,7 +21,7 @@ ul{
     
 
 }
-li{
+li.contenido{
     display: flex;
   justify-content: space-around;
     color: #FC7300;
@@ -54,6 +54,9 @@ margin-right: 20px;
 
 main{
     background-color: #EFF5F5;
+    height: 1600px;
+
+
     
 }
 
@@ -102,8 +105,100 @@ margin-left: 20px;
     font-weight: 700;
     line-height: normal;
     margin-left: 20px;
-    
+    padding-right: 20px;
 }
+
+h2.propuesta{
+    color: #FC7300;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+padding-left: 20px;
+margin-bottom: 0px;
+}
+
+ul.contenido-propuesta{
+    color: #181823;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.imagen-utn{
+    display: flex;
+    gap:100px;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+h2.noticias{
+    color: #FC7300;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+
+}
+
+.footer{
+    display: flex;
+    background-color:#00425A;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+padding-left: 20px;
+padding-right: 20px;
+
+ }
+
+ .facebook{
+    width: 36px;
+height: 36px;
+ }
+
+ .instagram{
+    width: 36px;
+height: 36px;
+ }
+ .nav-footer{
+    
+    color: #EFF5F5;
+}
+
+footer>div>h3{
+    text-align: center;
+    color: #EFF5F5;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+ .nav-footer>ul>li{
+ 
+    color: #EFF5F5;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    list-style: none;
+
+  
+ 
+ }
 
 
 

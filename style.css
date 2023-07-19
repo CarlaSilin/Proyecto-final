@@ -28,6 +28,10 @@ ul.nav{
     
 
 }
+
+ul img.menu-icon{
+    display: none;
+}
 li.contenido{
     display: flex;
   justify-content: space-around;
@@ -413,8 +417,98 @@ line-height: normal;
             list-style: none;
             
          }  
+        }
 
- }
+        @media (max-width:320px){
+            body{
+                background-color: #00425A;
+            }
+
+            p{
+                color:#EFF5F5;
+            
+            }
+
+            ul.contenido-propuesta{
+                color: #EFF5F5;
+            }
+
+            .navbar{
+                background-color: #181823;
+            }
+            ul.nav{
+                display:flex;
+                justify-content: flex-start;
+               
+            }
+            nav ul img.menu-icon{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            li.contenido{
+                display:none;
+            }
+            li.botoncontacto{
+                display: none;
+            }
+            .imagen-nena{
+                display: flex;
+                flex-direction: column;
+                margin-right:5px;
+                margin-left: 5px;
+                margin-bottom: 150px;
+             }
+
+             p.sueño{
+                margin-top:15px ;
+               
+             }
+
+             h2.elegirnos{
+                margin-top: 510px;
+             }
+
+             .imagen-colegio{
+                display:flex;
+                flex-direction: column;
+                margin-bottom: 150px;
+                
+             }
+             p.alumno{
+                width: 748px;
+                margin-top: 15px;
+             }
+
+             h2.propuesta{
+
+                margin-top:195px;
+             }
+
+             div.imagen-utn{
+                display: flex;  
+                flex-direction: column-reverse;
+                margin-top: 300px;
+                margin-bottom:50px;
+                gap:5px;
+              
+             }
+             p.proyecto{
+                width: 748px;
+                margin-bottom: 15px;
+              
+
+              
+
+             }
+             
+
+
+
+            
+
+                
+                
 
 
 
@@ -422,5 +516,49 @@ line-height: normal;
 
 
 
-    
-  
+
+
+
+
+
+
+
+
+
+
+
+
+           .footer{
+            background-color: #181823;
+           }
+
+           .facebook{
+            width: 24px;
+            height: 24px;
+
+           }
+
+           .instagram{
+            width: 24px;
+            height: 24px;
+           }
+
+           div.h3{
+            text-align: center;
+            color: #EFF5F5;
+            font-family: Poppins;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+           }
+        }
+
+        
+        
+
+
+ 
+
+ 

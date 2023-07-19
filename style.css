@@ -34,6 +34,13 @@ line-height: normal;
 list-style: none;
 }
 
+a:link{
+    color:#FC7300;
+}
+a:visited{
+    color: #181823;
+}
+
 li.botoncontacto{
     display: flex;
     color: #00425A;
@@ -46,11 +53,16 @@ line-height: normal;
 width: 189px;
 height: 37px;
 border-radius: 8px;
-background: #FC7300;
+background:#EFF5F5;
 align-items: center;
 justify-content: center;
 margin-right: 20px;
 }
+
+
+
+
+
 
 main{
     background-color: #EFF5F5;

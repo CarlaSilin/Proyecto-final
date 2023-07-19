@@ -1,5 +1,5 @@
 body{
-    background-color:#EFF5F5;
+    background-color:#EFF5F5
 }
 
 
@@ -9,10 +9,11 @@ header{
     padding:0px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .navbar{
-    width: 100%;
+width: 100%;
 height: 63px;
 background: #00425A;
 margin:0px;
@@ -65,11 +66,7 @@ justify-content: center;
 margin-right: 20px;
 }
 
-main{
-    
-    height: 1600px;
-  
-}
+
 
 h1{
     color: #FC7300;
@@ -86,6 +83,8 @@ text-align: center;
     flex-direction: row-reverse;
     gap: 100px;
     margin-right: 20px;
+    max-height:400px;
+    
 }
 
 .quienes-somos{
@@ -112,10 +111,13 @@ margin-left: 20px;
 
 }
 
+
+
 .imagen-colegio{
     display: flex;
     gap: 50px;
     margin-left: 20px;
+    max-height: 200px;
     
 }
 .elegirnos{
@@ -155,6 +157,8 @@ line-height: normal;
     gap:100px;
     flex-direction: row-reverse;
     margin-right: 20px;
+    max-height: 200px;
+    margin-bottom: 50px;
 }
 
 h2.noticias{
@@ -171,14 +175,14 @@ h2.noticias{
 }
 
 .footer{
-    display: flex;
-    background-color:#00425A;
+display: flex;
+ background-color:#00425A;
 justify-content: space-between;
 align-items: center;
 height: 70px;
-padding-left: 20px;
 padding-right: 20px;
-margin-top: 50px;
+padding-left: 20px;
+
 
  }
 
@@ -220,19 +224,209 @@ line-height: normal;
  }
 
  @media (max-width:768px) {
+
     body{
-        background-color: #00425A;
+        width: 768px;
+    }
+    
+    header{
+       
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    .navbar{
+    width: 768px;
+    height: 63px;
+    background: #00425A;
+    
+    
+    }
+    
+    ul.nav{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap:30px;
+        
+        
+    
+    }
+    li.contenido{
+        display: flex;
+      justify-content: space-around;
+        color: #FC7300;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style: none;
+    }
+    
+    a:link{
+        color:#FC7300;
+    }
+    a:visited{
+        color: #181823;
+    }
+    
+    li.botoncontacto{
+        display: flex;
+        color: #00425A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background:#EFF5F5;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    h1{
+        color: #FC7300;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    }
+
+    h2.quienes-somos{
+        margin-bottom: 20px;
+    }
+    .imagen-nena{
+       display: flex;
+        width: 100%;
+        height: 243px;  
+       margin-right:5px;
+       margin-left: 5px;
+       gap:10px;
+
+               
+    }
+    p{
+      
+    color: #181823;
+    font-family: Poppins;
+    font-size: 14px;    
+    font-style: normal;
+    font-weight: 400;
+   
+    margin-top: 0px;
+       
+    }
+
+    div.imagen-colegio{
+        
+      display: flex;
+        width: 100%;
+        height: 233px;  
+      margin-left: 20px;
+      gap:5px;
+
         
     }
+    .elegirnos{
+        display: flex;
+        color: #FC7300;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 20px;
+        padding-right: 20px;
+        margin-top: 200px;
 
-    p{
-        color: #EFF5F5;
+    }
+    p.alumno{
+      
+        width: 400px;
+        margin-right: 20px;
+    }
+
+    h2.propuesta{
+        margin-top: 50px;
     }
     ul.contenido-propuesta{
-        color: #EFF5F5;
+        color: #181823;
+        font-family: Poppins;
+        font-size: 14px;    
+        font-style: normal;
+        font-weight: 400;
+       
+        margin-top: 0px;
+
     }
 
-    
+    div.imagen-utn{      
+       
+        width: 100%;
+        height: 100px;  
+      margin-left:5px;
+      margin-right: 0px;
+      gap:50px;   
+      margin-bottom: 100px; 
+    }
+
+    .footer{
+        display: flex;
+         background-color:#00425A;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+       
+        
+        
+         }
+        
+         .facebook{
+            width: 26px;
+        height: 26px;
+         }
+        
+         .instagram{
+            width: 26px;
+        height: 26px;
+         }
+
+         .nav-footer>ul{
+            padding:0px;
+         }
+
+         
+         
+         
+         
+         
+         .nav-footer>ul>li{
+ 
+            color: #EFF5F5;
+            text-align: right;
+            font-family: Poppins;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: normal;
+            list-style: none;
+            
+         }
+
+
+
+ 
+
+  
+
  }
 
 

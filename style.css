@@ -1,3 +1,9 @@
+body{
+    background-color:#EFF5F5;
+}
+
+
+
 header{
     margin: 0px;
     padding:0px;
@@ -59,17 +65,20 @@ justify-content: center;
 margin-right: 20px;
 }
 
-
-
-
-
-
 main{
-    background-color: #EFF5F5;
-    height: 1600px;
-
-
     
+    height: 1600px;
+  
+}
+
+h1{
+    color: #FC7300;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
 }
 
 .imagen-nena{
@@ -169,6 +178,7 @@ align-items: center;
 height: 70px;
 padding-left: 20px;
 padding-right: 20px;
+margin-top: 50px;
 
  }
 
@@ -207,9 +217,22 @@ line-height: normal;
     font-weight: 100;
     line-height: normal;
     list-style: none;
+ }
 
-  
- 
+ @media (max-width:768px) {
+    body{
+        background-color: #00425A;
+        
+    }
+
+    p{
+        color: #EFF5F5;
+    }
+    ul.contenido-propuesta{
+        color: #EFF5F5;
+    }
+
+    
  }
 
 

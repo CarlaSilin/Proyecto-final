@@ -290,6 +290,7 @@ line-height: normal;
     justify-content: center;
     
     }
+    
     h1{
         color: #FC7300;
     font-family: Poppins;
@@ -309,10 +310,9 @@ line-height: normal;
         height: 243px;  
        margin-right:5px;
        margin-left: 5px;
-       gap:10px;
-
-               
+       gap:10px;               
     }
+
     p{
       
     color: #181823;
@@ -384,8 +384,6 @@ line-height: normal;
         justify-content: space-between;
         align-items: center;
         height: 70px;
-       
-        
         
          }
         
@@ -401,12 +399,7 @@ line-height: normal;
 
          .nav-footer>ul{
             padding:0px;
-         }
-
-         
-         
-         
-         
+         }        
          
          .nav-footer>ul>li{
  
@@ -419,13 +412,7 @@ line-height: normal;
             line-height: normal;
             list-style: none;
             
-         }
-
-
-
- 
-
-  
+         }  
 
  }
 

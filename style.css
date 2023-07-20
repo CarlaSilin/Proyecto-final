@@ -418,7 +418,6 @@ line-height: normal;
             
          }  
         }
-
         @media (max-width:320px){
             body{
                 background-color: #00425A;
@@ -473,7 +472,6 @@ line-height: normal;
                 display:flex;
                 flex-direction: column;
                 margin-bottom: 150px;
-                
              }
              p.alumno{
                 width: 748px;
@@ -496,39 +494,12 @@ line-height: normal;
              p.proyecto{
                 width: 748px;
                 margin-bottom: 15px;
-              
-
-              
+                          
 
              }
              
-
-
-
-            
-
-                
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           .footer{
+             
+             .footer{
             background-color: #181823;
            }
 
@@ -555,6 +526,8 @@ line-height: normal;
            }
         }
 
+
+        
         
         
 

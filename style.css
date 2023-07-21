@@ -418,7 +418,7 @@ line-height: normal;
             
          }  
         }
-        @media (max-width:450px){
+        @media (max-width:451px){
             body{
                 background-color: #00425A;
             }
@@ -448,9 +448,7 @@ line-height: normal;
             li.contenido{
                 display:none;
             }
-            li.botoncontacto{
-                display: none;
-            }
+           
             .imagen-nena{
                 display: flex;
                 flex-direction: column;
@@ -474,13 +472,14 @@ line-height: normal;
                 margin-bottom: 150px;
              }
              p.alumno{
-                width: 748px;
+                width: 450px;
                 margin-top: 15px;
+               
              }
 
              h2.propuesta{
 
-                margin-top:195px;
+                margin-top:230px;
              }
 
              div.imagen-utn{
@@ -492,11 +491,9 @@ line-height: normal;
               
              }
              p.proyecto{
-                width: 748px;
-                margin-bottom: 15px;
-                          
-
-             }
+                width: 450px;
+                margin-bottom: 0px;
+                }
              
              
              .footer{
